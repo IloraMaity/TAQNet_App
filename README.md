@@ -9,6 +9,7 @@ To find its location, enter
     >>mcrinstaller
 
 at the MATLAB prompt.
+
 NOTE: You will need administrator rights to run the MATLAB Runtime installer.
 
 Alternatively, download and install the Windows version of the MATLAB Runtime for R2024a
@@ -19,19 +20,9 @@ For more information about the MATLAB Runtime and the MATLAB Runtime installer, 
 "Distribute Applications" in the MATLAB Compiler documentation
 in the MathWorks Documentation Center.
 
-## 2. Files to Deploy and Package
 
-### Files to Package for Standalone
 
--TAQNetQCI.exe
--MCRInstaller.exe
-    Note: if end users are unable to download the MATLAB Runtime using the
-    instructions in the previous section, include it when building your
-    component by clicking the "Runtime included in package" link in the
-    Deployment Tool.
--This readme file
-
-## 3. Application Overview
+## 2. Application Overview
 TAQNetQCI is a standalone application designed to facilitate the deployment of a quantum communication infrastructure (QCI) using a cost-effective and efficient approach. The application leverages advanced algorithms to address key challenges in quantum key distribution (QKD).
 
 ### Key Features
@@ -49,7 +40,7 @@ Quantum key distribution (QKD) provides a secure method to exchange encrypted in
 
 Addressing the key rate demands of multiple QKD requests is complex due to limited path availability and key rate capacities, which decrease with link distance. This application proposes a minimum Steiner tree combined with a genetic algorithm for QKD request distribution, optimizing the deployment to serve maximum QKD requests. Additionally, it employs an optical bypassing technique for QKD between non-adjacent QNs, reducing energy consumption and enhancing deployment efficiency.
 
-## 4. Installation Instructions
+## 3. Installation Instructions
 Download the Package
 Download the deployment package containing the necessary files.
 
@@ -65,13 +56,13 @@ If no installer script is provided:
 Copy TAQNetQCI.exe to your desired installation directory.
 Ensure MCRInstaller.exe is in the same directory if the MATLAB Runtime is not already installed.
 
-## 5. Running the Application
+## 4. Running the Application
 To run TAQNetQCI:
 
 Navigate to the directory where TAQNetQCI.exe is located.
 Double-click TAQNetQCI.exe to launch the application.
 
-## 6. Definitions
+## 5. Definitions
 
 For information on deployment terminology, go to
 [2](https://www.mathworks.com/help) and select MATLAB Compiler >
@@ -79,7 +70,7 @@ Getting Started > About Application Deployment >
 Deployment Product Terms in the MathWorks Documentation
 Center.
 
-## 7. Troubleshooting
+## 6. Troubleshooting
 ### Common Issues
 MATLAB Runtime not found
 Ensure that the MATLAB Runtime is correctly installed. Check the installation directory and verify the version.
