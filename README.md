@@ -80,3 +80,10 @@ Verify that your system meets the minimum requirements. Check for any missing de
 
 ### Support
 For further assistance, contact ilora.maity@uni.lu.
+
+## 7. Citation
+If you use this application in your research or work, please cite our paper:
+
+I. Maity, J. u. Rehman and S. Chatzinotas, "TAQNet: Traffic-Aware Minimum-Cost Quantum Communication Network Planning," in IEEE Transactions on Quantum Engineering, doi: 10.1109/TQE.2024.3509019.
+
+For more details, you can find the paper [here](https://ieeexplore.ieee.org/document/10771724).
